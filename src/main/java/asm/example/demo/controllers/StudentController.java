@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Optional;
 
-@RestController         // Doesn't work if we use @RestController
+@RestController
 public class StudentController {
 
     private final StudentRepo studentRepo;
